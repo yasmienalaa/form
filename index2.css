@@ -1,0 +1,26 @@
+form {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form div input {
+    width: 80%;
+    padding: 10px 5px;
+    margin: 20px 0;
+}
+table {
+  color: white;
+    width: 50%;
+    margin: 10px auto;
+    border: 3px solid black;
+    text-align: center;
+  }
+  table tr,
+  td,
+  th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="index2.css">
+
+   <title>Document</title>
+</head>
+
+<body>
+   <nav>
+      <h2>ENGAGE</h2>
+      <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">About</a></li>
+         <li><a href="">Shop</a></li>
+         <li><a href="">Contact</a></li>
+         <li><a href=""><i class="fa-solid fa-lock"></i></a></li>
+      </ul>
+   </nav>
+   <section id="s1">
+      <div class="text">
+         <p> Welcome to</p>
+         <h1>Dark Shop</h1>
+         <p> We're the biggest, best equipped and most advanced<br> Web Agency in the greater Los Angeles area.</p>
+          <button onclick="fun()">Learn More</button>
+      </div>
+
+   </section>
+
+
+   <section id="s2">
+      <form id="emailForm">
+      <div>
+         <input type="text" id="userName" placeholder="userName">
+      </div>
+      <div>
+         <input type="number" id="age" placeholder="age">
+      </div>
+      <div>
+         <input type="password" id="password" placeholder="password">
+      </div>
+      <div>
+         <input type="email" id="email" placeholder="email" />
+         <p id="error-message" style="color: red;"></p>
+      </div>
+      <button type="submit " id="submit">submit</button>
+      </form>
+
+      <table>
+         <thead>
+            <tr>
+               <th>user Name</th>
+               <th>age</th>
+               <th>password</th>
+               <th> email</th>
+            </tr>
+         </thead>
+         <tbody id="tableBody"></tbody>
+      </table>
+   </section>
+
+   <script src="https://kit.fontawesome.com/7fa8960c5e.js" crossorigin="anonymous"></script>
+   <script src="form.js"></script>
+
+</body>
+
+</html>

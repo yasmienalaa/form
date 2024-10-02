@@ -6,6 +6,7 @@ body{
     background-position: center top;
     padding: 8px;
     margin: -8px;
+    background-repeat: no-repeat;
 
 }
 h2{
@@ -66,5 +67,8 @@ a:hover{
     }
     button{
         width: 100px;
+    }
+    body{
+        height: 715px;
     }
 }
